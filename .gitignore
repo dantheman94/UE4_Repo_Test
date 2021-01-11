@@ -9,19 +9,19 @@
 !/*.uproject
 
 # Do not ignore source, config and plugins dirs.
-!/Source/**
-!/Config/**
-!/Plugins/**
+!/AdvancedVehicle/Source/**
+!/AdvancedVehicle/Config/**
+!/AdvancedVehicle/Plugins/**
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
 # files if adding them here.
-!/Content/**/*.uasset
-!/Content/**/*.umap
+!/AdvancedVehicle/Content/**/*.uasset
+!/AdvancedVehicle/Content/**/*.umap
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
-!/RawContent/**/*
+!/AdvancedVehicle/RawContent/**/*
 
 # OS/platform generated files.
 
